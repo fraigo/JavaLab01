@@ -5,15 +5,42 @@
  */
 public class Model {
 	
+	/**
+	 * Inches per foot
+	 */
 	public static final int INCHES_PER_FOOT = 12;
+	/**
+	 * Base rate in dollars per hour
+	 */
 	public static final int BASE_RATE_DOLLARS_PER_HOUR = 60;
+	/**
+	 * Minimum height in inches to consider a tall model
+	 */
 	public static final int TALL_INCHES = 67;
+	/**
+	 * Maximum weight in pounds to consider a thin model
+	 */
 	public static final double THIN_POUNDS = 140.0;
+	/**
+	 * Bonus for thin and tall models in dollars per hour
+	 */
 	public static final int TALL_THIN_BONUS_DOLLARS_PER_HOUR = 5;
+	/**
+	 * Bonus for models that can travel
+	 */
 	public static final int TRAVEL_BONUS_DOLLARS_PER_HOUR = 4;
+	/**
+	 * Deduction for models who smoke 
+	 */
 	public static final int SMOKER_DEDUCTION_DOLLARS_PER_HOUR = 10;
 	
+	/**
+	 * Inches to centimeters ratio
+	 */
 	public static final double INCHES_TO_CENTIMETERS=2.54d;
+	/**
+	 * Pounds to kilograms ratio
+	 */
 	public static final double POUNDS_TO_KILOGRAMS=0.453592d;
 	
 	
